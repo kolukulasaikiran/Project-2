@@ -2,44 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Simple Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
             background-color: #f0f4f8;
-            color: #333;
+            color: #334155;
+        }
+        .card {
+            background-color: #ffffff;
+            padding: 2.5rem 3.5rem;
+            border-radius: 1.5rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
             text-align: center;
-            padding: 50px;
+            max-width: 90%;
+            width: 400px;
         }
-
-        h1 {
-            color: #007acc;
+        .title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 1rem;
         }
-
-        p {
-            font-size: 18px;
-            margin-bottom: 20px;
-        }
-
-        .btn {
-            background-color: #007acc;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s;
-        }
-
-        .btn:hover {
-            background-color: #005f99;
+        .name {
+            font-size: 1.5rem;
+            color: #475569;
+            font-weight: 500;
         }
     </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is a simple web page styled with CSS.</p>
-    <button class="btn" onclick="alert('Button clicked!')">Click Me</button>
+
+<div class="card">
+    <h1 class="title">Hi!</h1>
+    <p class="name">My name is SAI</p>
+</div>
+
 </body>
 </html>
