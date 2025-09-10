@@ -2,11 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Web Page</title>
+    <title>Simple Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #007acc;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: #007acc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #005f99;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a basic HTML page.</p>
-    <a href="https://www.example.com" target="_blank">Visit Example.com</a>
+    <h1>Hello, World!</h1>
+    <p>This is a simple web page styled with CSS.</p>
+    <button class="btn" onclick="alert('Button clicked!')">Click Me</button>
 </body>
 </html>
